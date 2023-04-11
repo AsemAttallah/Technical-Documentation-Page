@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    border: 5px double rgb(153, 170, 106);
+    margin: 5px;
+}
+
+@media screen and (max-width: 840px) {
+    body {
+        text-align: center;
+    }
+}
+
+.header {
+    border-right: 5px double rgb(153, 170, 106);
+    max-width: 25%;
+
+}
+
+.header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+nav a {
+    border-bottom: 2px double rgb(153, 170, 106);
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header h1 {
+    border-bottom: 5px double rgb(153, 170, 106);
+    text-align: center;
+
+}
+
+main {
+    font-size: 25px;
+}
+
+section {
+    margin: 50px 0 50px 0;
+}
+
+main h2 {
+    margin-left: 20px;
+}
+
+main p {
+    margin-left: 35px;
+}
+
+code {
+    background-color: rgb(220, 223, 222);
+}
+
+span {
+    font-weight: bold;
+}
